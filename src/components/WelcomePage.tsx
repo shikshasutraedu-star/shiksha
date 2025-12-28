@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, ArrowLeft } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 
 type Props = {
   setCurrentPage: (p: string) => void;
