@@ -1,6 +1,6 @@
 import React from 'react';
-import { BookOpen } from 'lucide-react';
-
+//import { BookOpen } from 'lucide-react';
+import logo from "../assets/1768138402643.jpg";
 type Props = {
   setCurrentPage: (p: string) => void;
   setIsGuest: (v: boolean) => void;
@@ -10,7 +10,13 @@ const WelcomePage: React.FC<Props> = ({ setCurrentPage, setIsGuest }) => (
   <div className="min-h-screen bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 flex items-center justify-center p-4">
     <div className="text-center text-white animate-fade-in">
       <div className="bg-white rounded-full w-32 h-32 mx-auto mb-6 flex items-center justify-center shadow-2xl">
-        <BookOpen className="w-16 h-16 text-purple-600" />
+        {/* <BookOpen className="w-16 h-16 text-purple-600" /> */}
+      {/* <img src="src\assets\WhatsApp Image 2026-01-11 at 6.43.11 PM.jpeg" alt="" /> */}
+      <img
+    src={logo}
+    alt="logo"
+    className="w-31 h-31 object-contain rounded-full"
+  />
       </div>
       <h1 className="text-5xl font-bold mb-4">Shiksha Sutra</h1>
       <p className="text-xl mb-8 italic">"Bridging the Gap between Language and Learning"</p>
