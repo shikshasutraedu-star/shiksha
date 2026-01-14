@@ -1,0 +1,143 @@
+Q1. Which of the following statements is incorrect regarding the addition of integers?
+A) Integers are closed under addition.
+B) Addition is commutative for integers.
+C) 0 is the additive identity for integers.
+D) 1 is the additive identity for integers.
+Hint: Think about what number you can add to an integer without changing its value.
+Q2. Evaluate: (-5) \times (-4) \times (-3)
+A) 60
+B) -60
+C) 12
+D) -12
+Hint: Count the number of negative signs. If the count is odd, the product is negative.
+Q3. In a test, +5 marks are given for every correct answer and -2 marks are given for every incorrect answer. Radhika answered all questions and scored 30 marks though she got 10 correct answers. How many incorrect answers did she attempt?
+A) 10
+B) 5
+C) 15
+D) 8
+Hint: Calculate the total marks for the correct answers first, then find the difference between that and the final score.
+Q4. Identify the property used in the following equation: 15 \times [10 + (-2)] = (15 \times 10) + (15 \times (-2))
+A) Commutative Property
+B) Associative Property
+C) Distributive Property
+D) Closure Property
+Hint: Look at how the number outside the bracket is multiplied by each number inside the bracket.
+Q5. What is the value of [(-36) \div 12] \div 3?
+A) -1
+B) 1
+C) -4
+D) 3
+Hint: Follow the order of operations (BODMAS). Solve the operation inside the square brackets first.
+Q6. Which pair of integers has a sum of -3?
+A) (-1, -2)
+B) (-5, 2)
+C) (-4, 1)
+D) (1, 2)
+Hint: Add the two numbers in each pair observing sign rules. (Select the pair consisting only of negative integers).
+Q7. What is the additive inverse of -8?
+A) 8
+B) -8
+C) 0
+D) 1
+Hint: The additive inverse is the number you add to get zero. It's essentially the number with the opposite sign.
+Q8. The temperature at 12 noon was 10^{\circ}\text{C} above zero. If it decreases at the rate of 2^{\circ}\text{C} per hour until midnight, at what time would the temperature be 8^{\circ}\text{C} below zero?
+A) 9 PM
+B) 8 PM
+C) 10 PM
+D) 6 PM
+Hint: Find the total difference between the starting temperature and the final temperature, then divide by the rate of change.
+Q9. Assertion (A): The product of (-9) \times (-5) \times (-6) \times (-3) is positive.
+Reason (R): The product of an even number of negative integers is always positive.
+A) Both A and R are true and R is the correct explanation of A.
+B) Both A and R are true but R is NOT the correct explanation of A.
+C) A is true but R is false.
+D) A is false but R is true.
+Hint: Count how many negative numbers are being multiplied. Is the count even or odd?
+Q10. Assertion (A): For any integer a, a \div 0 = 0.
+Reason (R): Division by zero is not defined.
+A) Both A and R are true and R is the correct explanation of A.
+B) Both A and R are true but R is NOT the correct explanation of A.
+C) A is true but R is false.
+D) A is false but R is true.
+Hint: Can you divide a number into zero parts? Recall the rule for division by zero.
+Q11. Which of the following expressions is equal to -30?
+A) (-10) - (-20)
+B) (-6) \times (+5)
+C) (-10) + (+20)
+D) (-60) \div (-2)
+Hint: Apply sign rules: Negative \times Positive = Negative.
+Q12. Determine the integer whose product with (-1) is 25.
+A) -25
+B) 25
+C) 1
+D) -1
+Hint: If you multiply a number by -1, its sign changes. Work backwards.
+Q13. Starting from (-1) \times 5, if we follow the pattern (-1) \times 4, (-1) \times 3..., what will be the result of (-1) \times (-1)?
+A) 0
+B) -1
+C) 1
+D) -2
+Hint: The product increases by 1 in each step as the multiplier decreases by 1.
+Q14. Solve: 25 - 5 \times (4 + 6)
+A) 200
+B) -25
+C) 125
+D) 25
+Hint: Remember BODMAS: Brackets first, then Multiplication, then Subtraction.
+Q15. Replace the blank with an integer to make it a true statement: (-3) \times \text{______} = 27
+A) 9
+B) -9
+C) 81
+D) -27
+Hint: Divide 27 by -3 to find the missing number.
+Q16. Which property is reflected in the equation: a \times (b \times c) = (a \times b) \times c?
+A) Associative Property of Multiplication
+B) Commutative Property
+C) Distributive Property
+D) Closure Property
+Hint: Look at how the brackets (parentheses) move from the last two numbers to the first two numbers.
+Q17. A plane is flying at the height of 5000\text{ m} above sea level. At a particular point, it is exactly above a submarine floating 1200\text{ m} below sea level. What is the vertical distance between them?
+A) 3800 m
+B) 6200 m
+C) -3800 m
+D) 5000 m
+Hint: To find the distance, you need to add the height of the plane and the depth of the submarine (treating depth as a positive distance from surface or subtracting a negative coordinate).
+Q18. When we divide a negative integer by a positive integer, the quotient is:
+A) Always positive
+B) Always negative
+C) Either positive or negative
+D) Zero
+Hint: Think of the rule: "Unlike signs give minus".
+Q19. Fill in the blank: \text{_____} \div 48 = -1
+A) -48
+B) 48
+C) 1
+D) -1
+Hint: What number divided by x gives -1? It must be -x.
+Q20. Which of the following does NOT represent an integer?
+A) 0 \div (-7)
+B) 20 \div (-4)
+C) (-9) \div 3
+D) (-7) \div 3
+Hint: Integers are whole numbers and their negatives. Check which division does not result in a whole number.
+Answer Key & Explanations
+1. D) 1 is the multiplicative identity, not the additive identity. The additive identity is 0.
+2. B) The product of three negative integers is negative. 5 \times 4 \times 3 = 60, and an odd number of negatives results in a negative sign.
+3. A) She got 10 correct, scoring 10 \times 5 = 50 marks. Her final score was 30, so she lost 20 marks. Since each incorrect answer is -2, she got 20 \div 2 = 10 incorrect answers.
+4. C) The distributive property states that a(b + c) = ab + ac. This matches the equation perfectly.
+5. A) First, solve the bracket: (-36) \div 12 = -3. Then, divide the result by 3: (-3) \div 3 = -1.
+6. A) (-1) + (-2) = -3.
+7. A) The additive inverse of a number x is -x, such that their sum is 0. The inverse of -8 is 8.
+8. A) Total drop required is from +10 to -8, which is a change of 18^{\circ}\text{C}. Rate is 2^{\circ}\text{C}/hour. Time = 18/2 = 9 hours. 12 noon + 9 hours = 9 PM.
+9. A) There are 4 negative integers in the product. Since 4 is an even number, the product is positive. The reason correctly explains the assertion.
+10. D) The assertion is false because division by zero is undefined, not zero. The reason statement is factually true.
+11. B) Product of a negative and a positive is negative: 6 \times 5 = 30, so -30.
+12. A) (-25) \times (-1) = 25.
+13. C) The pattern increases by 1 each step: -5, -4, -3, -2, -1, 0, 1. So (-1) \times (-1) = 1.
+14. B) Using BODMAS: First brackets (4+6)=10. Then multiply 5 \times 10 = 50. Finally subtract 25 - 50 = -25.
+15. B) (-3) \times (-9) = 27. Two negatives make a positive.
+16. A) The grouping of factors changes, which is the definition of associativity.
+17. B) Distance = Upper position - Lower position = 5000 - (-1200) = 5000 + 1200 = 6200\text{ m}.
+18. B) Unlike signs in division always yield a negative result.
+19. A) (-48) \div 48 = -1. Any number divided by its additive inverse gives -1.
+20. D) Result is a fraction/decimal (approx -2.33), which is not an integer.

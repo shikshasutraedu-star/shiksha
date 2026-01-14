@@ -1,17 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { X, User, HelpCircle, Settings, CreditCard, Library, Shield, LogOut } from 'lucide-react';
+import { AppContext } from '../context/AppContext';
 
-type Props = {
-  isMenuOpen: boolean;
-  setIsMenuOpen: (v: boolean) => void;
-  isLoggedIn: boolean;
-  isGuest: boolean;
-  setIsLoggedIn: (v: boolean) => void;
-  setIsGuest: (v: boolean) => void;
-  setCurrentPage: (p: string) => void;
-};
+const NavigationMenu: React.FC = () => {
+  const { isMenuOpen, setIsMenuOpen, isLoggedIn, isGuest, setIsLoggedIn, setIsGuest, setCurrentPage } = useContext(AppContext);
 
-const NavigationMenu: React.FC<Props> = ({ isMenuOpen, setIsMenuOpen, isLoggedIn, isGuest, setIsLoggedIn, setIsGuest, setCurrentPage }) => {
   return (
     <div className={`fixed inset-0 bg-black bg-opacity-50 z-50 transition-opacity ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
       <div className={`fixed left-0 top-0 bottom-0 w-80 bg-white shadow-2xl transform transition-transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
