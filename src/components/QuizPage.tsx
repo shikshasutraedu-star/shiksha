@@ -106,7 +106,7 @@ const QuizPage: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 p-6">
       <div id="quiz-result" className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-6">
         <h2 className="text-3xl font-bold mb-2 text-purple-600">{uiLanguage === 'od' ? 'ପରିଣାମ' : 'Results'}</h2>
-        <div className="mb-4 text-gray-700">{uiLanguage === 'od' ? `ଆପଣ ${correctCount} ସଠିକ୍ ଉତ୍ତର, ${wrongCount} ଭୁଲ୍, ${unattemptedCount} ଚଢ଼ା ଯାଏଥିବା ପ୍ରଶ୍ନ — ପରୀକ୍ଷା ଚୂଡ଼ାନ୍ତ ଫଳାଫଳ: ${percent}%` : `You answered ${correctCount} correct, ${wrongCount} wrong, ${unattemptedCount} unattempted — Score: ${percent}%`}</div>
+        <div className="mb-4 text-gray-700">{uiLanguage === 'od' ? `ଆପଣ ${correctCount} ସଠିକ୍ ଉତ୍ତର, ${wrongCount} ଭୁଲ୍, ${unattemptedCount} ଅନୁତ୍ତୀର୍ଣ୍ଣ ପ୍ରଶ୍ନ — ପରୀକ୍ଷା ଚୂଡ଼ାନ୍ତ ଫଳାଫଳ: ${percent}%` : `You answered ${correctCount} correct, ${wrongCount} wrong, ${unattemptedCount} unattempted — Score: ${percent}%`}</div>
 
         <div className="mb-6 bg-gray-50 p-4 rounded-lg shadow-sm">
           <div className="flex items-center justify-between mb-2">
@@ -129,7 +129,7 @@ const QuizPage: React.FC = () => {
               <div className="w-12 text-right text-sm font-semibold">{wrongCount}</div>
             </div>
             <div className="flex items-center space-x-3">
-              <div className="w-32 text-sm text-gray-700">{uiLanguage === 'od' ? 'ଚଢ଼ା ଯାଏଥିବା ପ୍ରଶ୍ନ' : 'Unattempted'}</div>
+              <div className="w-32 text-sm text-gray-700">{uiLanguage === 'od' ? 'ଅନୁତ୍ତୀର୍ଣ୍ଣ ପ୍ରଶ୍ନ' : 'Unattempted'}</div>
               <div className="flex-1 bg-gray-200 h-4 rounded overflow-hidden">
                 <div className="bg-yellow-400 h-4" style={{ width: `${(unattemptedCount/total)*100}%` }} />
               </div>
