@@ -98,7 +98,6 @@ const QuizPage: React.FC = () => {
   }
 
   const total = questions.length;
-  const wrong = total - correctCount;
   const percent = Math.round((correctCount / total) * 100);
   const wrongCount = wrongList.length;
   const unattemptedCount = unattemptedList.length;
