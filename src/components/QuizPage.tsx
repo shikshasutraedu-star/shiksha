@@ -1,6 +1,8 @@
 import React, { useState, useContext } from 'react';
 import quizQuestions from '../data/quiz';
 import quizQuestionsOdia from '../data/quiz_odia';
+import quizQuestionsKui from '../data/quiz_kui';
+import quizQuestionsMundari from '../data/quiz_mundari';
 import type { QuizQuestion } from '../data/quiz';
 import { AppContext } from '../context/AppContext';
 import jsPDF from 'jspdf';
@@ -11,8 +13,16 @@ const QuizPage: React.FC = () => {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(false);
 
-  const { uiLanguage } = useContext(AppContext);
-  const questions = uiLanguage === 'od' ? quizQuestionsOdia : quizQuestions;
+  const { uiLanguage, selectedClass, selectedLanguage, selectedSubject, selectedTopic } = useContext(AppContext);
+
+  const questions =
+    selectedClass === 'FLN' && selectedLanguage === 'Kui' && selectedSubject === 'Math' && selectedTopic === 'Chapter 1 - ଯୋଗ'
+      ? quizQuestionsKui
+      : selectedClass === 'FLN' && selectedLanguage === 'Mundari' && selectedSubject === 'Math' && selectedTopic === 'Chapter 1 - ଯୋଗ'
+      ? quizQuestionsMundari
+      : uiLanguage === 'od'
+      ? quizQuestionsOdia
+      : quizQuestions;
   const q: QuizQuestion = questions[index];
 
   function choose(optKey: string) {

@@ -3,9 +3,14 @@ import { ArrowLeft, ChevronRight } from 'lucide-react';
 import { AppContext } from '../context/AppContext';
 
 const TopicSelectionPage: React.FC = () => {
-  const { selectedSubject, setSelectedTopic, setCurrentPage, appData } = useContext(AppContext);
+  const { selectedSubject, setSelectedTopic, setCurrentPage, appData, selectedClass } = useContext(AppContext);
 
-  const topicsForSubject: string[] = (appData.topics as Record<string, string[]>)[selectedSubject] || [];
+  const defaultTopics: string[] = (appData.topics as Record<string, string[]>)[selectedSubject] || [];
+
+  const topicsForSubject: string[] =
+    selectedClass === 'FLN' && selectedSubject === 'Math'
+      ? ['Chapter 1 - ଯୋଗ', 'Chapter 2 - ବିୟୋଗ', 'Chapter 3 - ଗୁଣନ', 'Chapter 4 - ଭାଗକ୍ରିୟା']
+      : defaultTopics;
 
   return (
     <div className="min-h-screen bg-gray-50">
